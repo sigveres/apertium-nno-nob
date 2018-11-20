@@ -211,4 +211,4 @@ test: all
 	@rm .test-ref .test-mt
 	t/bidix-sanity
 	t/hash-count
-	bash -x t/wer-loss
+	t/wer-loss
